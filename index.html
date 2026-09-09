@@ -14,21 +14,20 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<nav>
-    <div class="nav-container">
-        <a href="./index.html" class="logo">
-            <img src="./images/logo.png" alt="Logo de Booki">
-        </a>
-        <ul class="nav-links">
-            <li><a href="#">Hébergements</a></li>
-            <li><a href="#">Activités</a></li>
-        </ul>
-    </div>
-</nav>
-
 <body>
     <div class="main-container">
         <header>
+            <nav>
+                <div class="nav-container">
+                <a href="./index.html" class="logo">
+                <img src="./images/logo.png" alt="Logo de Booki">
+                </a>
+                <ul class="nav-links">
+                <li><a href="#">Hébergements</a></li>
+                <li><a href="#">Activités</a></li>
+                </ul>
+            </nav>
+
             <h1>Trouver votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre-ville ou en pleine nature</p>
             <form class="search-form">
@@ -37,12 +36,17 @@
                 <button type="submit">Rechercher</button>
             </form>
 
-            <div class="filtre-container">
-                <span>Filtres</span>
+            <filter-component>
+                <icon-filter>
+                    <img src="./images/icons/filter.svg" alt="Icone de filtre">
+                </icon-filter>
 
-                <button class=""
-
-
+                <filter-list>
+                    <icon-filter>
+                        <img src="./images/icons/price.svg" alt="Icone de Budget">
+                </filter-list>
+            </filter-component>
+                
 
         </header>
         <main>
