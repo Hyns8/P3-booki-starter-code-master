@@ -60,12 +60,13 @@ a {
 }
 
 /****** Header ***********/
+/****** Navigation ***********/
 
 .nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 79px;
+    height: 79px;
 }
 
 .logo img {
@@ -76,15 +77,18 @@ a {
 
 .nav-links {
     display: flex;
+    align-items: stretch;
+    align-self: stretch;
+    gap: 68px;
     list-style: none;
-    gap: 30px;
     margin: 0;
     padding: 0;
 }
 
 .nav-links a {
-    display: block;
-    padding-top: 16px;
+    display: flex;
+    align-items: center;
+    padding-top: 2px;
     border-top: 2px solid transparent;
 }
 
