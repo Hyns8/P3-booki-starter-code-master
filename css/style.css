@@ -104,6 +104,46 @@ header > p {
     margin-bottom: 35px;
 }
 
+/****** Header - Recherche ***********/
+
+.search-form {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: 49px;
+    margin-top: 20px;
+}
+
+.search-form img {
+    width: 50px;
+    height: 49px;
+    padding: 15px;
+    background-color: var(--main-bg-color);
+    border-radius: 15px 0 0 15px;
+    object-fit: contain;
+}
+
+.search-form input {
+    height: 49px;
+    width: 200px;
+    padding: 0 15px;
+    border: 1px solid var(--main-bg-color);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.search-form button {
+    height: 49px;
+    padding: 0 16px;
+    border: none;
+    border-radius: 0 15px 15px 0;
+    background-color: var(--main-color);
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
