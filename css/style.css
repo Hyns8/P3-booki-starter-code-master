@@ -68,7 +68,9 @@ a {
 }
 
 .logo img {
-    width: 61px;
+    width: 61.09px;
+    height: 19px;
+    display: block;
 }
 
 .nav-links {
