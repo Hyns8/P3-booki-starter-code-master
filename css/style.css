@@ -82,13 +82,10 @@ a {
 .nav-links a {
     display: block;
     padding-top: 16px;
+    border-top: 2px solid transparent;
 }
 
 .nav-links a:hover {
-    color: var(--main-color);
-}
-
-.nav-links .active {
     color: var(--main-color);
     border-top: 2px solid var(--main-color);
 }
