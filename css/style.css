@@ -144,6 +144,71 @@ header > p {
     cursor: pointer;
 }
 
+
+/****** Header - Filtres ***********/
+
+.filters {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.filters-title {
+    margin: 0;
+    font-weight: 700;
+}
+
+.filter-list {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.filter-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 50px;
+    padding: 0 20px;
+    border: 2px solid var(--main-bg-color);
+    border-radius: 25px;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.filter-button img {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+}
+
+.filter-button:hover {
+    background-color: var(--filter-bg-color);
+}
+
+
+/****** Header - Information ***********/
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.info img {
+    width: 24px;
+    height: 24px;
+}
+
+.info p {
+    margin: 0;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
