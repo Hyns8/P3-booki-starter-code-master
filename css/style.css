@@ -67,6 +67,13 @@ a {
     align-items: center;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .logo img {
     width: 61.09px;
     height: 19px;
