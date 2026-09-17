@@ -1,6 +1,7 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
 }
 
 :root {
@@ -16,13 +17,13 @@
 body {
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 
 .main-container {
     width: 100%;
     max-width: 1440px;
     padding: 0 50px;
-    box-sizing: border-box;
 }
 
 a {
@@ -90,6 +91,17 @@ a {
 .nav-links .active {
     color: var(--main-color);
     border-top: 2px solid var(--main-color);
+}
+
+header h1 {
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 8px;
+}
+
+header > p {
+    margin-top: 0;
+    margin-bottom: 35px;
 }
 
 /****** Hebergements And Populaires ***********/
