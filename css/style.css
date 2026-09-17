@@ -24,7 +24,6 @@ body {
     width: 100%;
     max-width: 1440px;
     padding: 0 50px;
-    box-sizing: border-box;
 }
 
 a {
@@ -63,11 +62,13 @@ a {
 /****** Header ***********/
 /****** Navigation ***********/
 
+/****** Header ***********/
+
 .nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 79px;
+    min-height: 79px;
 }
 
 .logo img {
@@ -78,22 +79,25 @@ a {
 
 .nav-links {
     display: flex;
-    align-items: stretch;
     align-self: stretch;
-    gap: 68px;
     list-style: none;
+    gap: 30px;
     margin: 0;
     padding: 0;
 }
 
 .nav-links a {
-    display: flex;
-    align-items: center;
-    padding-top: 2px;
+    display: block;
+    padding: 16px 0 0;
     border-top: 2px solid transparent;
 }
 
 .nav-links a:hover {
+    color: var(--main-color);
+    border-top: 2px solid var(--main-color);
+}
+
+.nav-links .active {
     color: var(--main-color);
     border-top: 2px solid var(--main-color);
 }
@@ -148,7 +152,6 @@ header > p {
     font-weight: 700;
     cursor: pointer;
 }
-
 
 /****** Header - Filtres ***********/
 
