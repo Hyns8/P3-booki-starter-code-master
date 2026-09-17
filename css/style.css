@@ -90,6 +90,7 @@ a {
 .nav-links .active {
     color: var(--main-color);
     border-top: 2px solid var(--main-color);
+}
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
