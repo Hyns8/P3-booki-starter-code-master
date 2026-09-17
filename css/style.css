@@ -65,18 +65,12 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    min-height: 79px;
 }
 
 .logo img {
     width: 61.09px;
-    height: 19px;
+    height: auto;
     display: block;
 }
 
