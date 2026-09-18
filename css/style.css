@@ -111,7 +111,6 @@ header > p {
 }
 
 /****** Header - Recherche ***********/
-
 .search-form {
     display: flex;
     align-items: center;
@@ -151,7 +150,6 @@ header > p {
 }
 
 /****** Header - Filtres ***********/
-
 .filters {
     display: flex;
     align-items: center;
@@ -197,7 +195,6 @@ header > p {
 
 
 /****** Header - Information ***********/
-
 .info {
     display: flex;
     align-items: center;
