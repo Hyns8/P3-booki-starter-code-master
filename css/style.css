@@ -267,7 +267,7 @@ header > p {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 30px;
-    margin-top: 25px;
+    margin-top: 8px;
 }
 
 .hebergements-cards > a {
