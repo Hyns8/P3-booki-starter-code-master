@@ -267,8 +267,7 @@ header > p {
 .hebergements-cards {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 30px;
-    margin-top: 8px;
+    margin-top: 12px;
 }
 
 .hebergements-cards > a {
@@ -329,7 +328,7 @@ header > p {
     display: flex;
     align-items: center;
     gap: 2px;
-    margin-top: auto;
+    margin-top: 12px;
     color: #0065fc;
 }
 
