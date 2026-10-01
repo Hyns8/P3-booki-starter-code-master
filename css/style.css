@@ -76,6 +76,7 @@ nav {
     width: 61px;
     height: auto;
     padding-top: 30px;
+
 }
 
 .nav-links {
@@ -326,6 +327,7 @@ header > p {
     align-items: center;
     gap: 2px;
     margin-bottom: 12px;
+    margin-top: auto;
     color: #0065fc;
 }
 
