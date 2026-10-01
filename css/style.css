@@ -219,13 +219,13 @@ header > p {
 .info {
     display: flex;
     align-items: center;
-    gap: 10px;
     margin-top: 25px;
 }
 
 .info img {
     width: 24px;
     height: 24px;
+    margin-right: 10px;
 }
 
 .info p {
@@ -251,8 +251,11 @@ header > p {
 .hebergements-and-populaires {
     display: grid;
     grid-template-columns: minmax(0, 2fr) minmax(320px, 1fr);
-    gap: 40px;
     margin-top: 30px;
+}
+
+.populaires {
+    margin-left: 40px;
 }
 
 
@@ -270,11 +273,12 @@ header > p {
     margin-top: 25px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
 }
 
 .hebergements-cards > a {
     min-width: 0px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .card {
