@@ -334,7 +334,6 @@ header > p {
 .card-rating {
     display: flex;
     align-items: center;
-    gap: 2px;
     margin-bottom: 12px;
     margin-top: auto;
     color: #0065fc;
@@ -342,6 +341,7 @@ header > p {
 
 .card-rating i {
     font-size: 12px;
+    margin-right: 2px;
 }
 
 .card-rating .neutral-star {
