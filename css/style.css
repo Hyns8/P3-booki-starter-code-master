@@ -82,7 +82,10 @@ nav {
 .nav-links {
     display: flex;
     align-items: center;
-    gap: 60px;
+}
+
+.nav-links li + li {
+    margin-left: 50px;
 }
 
 .nav-links a {
