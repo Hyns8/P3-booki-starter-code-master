@@ -176,13 +176,13 @@ header > p {
 .filters {
     display: flex;
     align-items: center;
-    gap: 30px;
     margin-top: 25px;
 }
 
 .filters-title {
     font-size: 18px;
     font-weight: 700;
+    margin-right: 30px;
 }
 
 .filter-list {
