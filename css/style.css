@@ -532,10 +532,12 @@ footer {
     }
 
     .hebergements {
+        order: 1;
         padding: 25px;
     }
 
     .populaires {
+        order: 2;
         padding: 25px;
     }
 
