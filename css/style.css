@@ -522,8 +522,9 @@ footer {
     }
 
     .hebergements-and-populaires {
-        grid-template-columns: minmax(0, 1.7fr) minmax(280px, 1fr);
-        gap: 30px;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        margin-top: 30px;
     }
 
     .hebergements {
@@ -535,6 +536,7 @@ footer {
     }
 
     .hebergements-cards {
+        grid-template-columns: repeat(3, 1fr);
         gap: 20px;
     }
 
