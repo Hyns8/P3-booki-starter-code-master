@@ -711,7 +711,7 @@ footer {
         order: 2;
         padding: 25px 20px 30px;
         border-radius: 0;
-        background-color: #f2f2f2;
+        background-color: #ffffff;
     }
 
     .hebergements-cards {
@@ -719,7 +719,7 @@ footer {
         flex-direction: column;
         gap: 20px;
         margin-top: 20px;
-        background-color: #f2f2f2;
+        background-color: #ffffff;
     }
 
     .hebergements-cards .card {
