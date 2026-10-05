@@ -540,6 +540,15 @@ footer {
         gap: 20px;
     }
 
+     .hebergements-cards .card-rating {
+        margin-bottom: 0;
+    }
+
+    .hebergements-cards .card-content {
+        height: 115px;
+        padding: 8px 12px 8px;
+    }   
+
     .populaires-cards {
         gap: 20px;
     }
