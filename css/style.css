@@ -731,6 +731,7 @@ footer {
 
     .populaires {
         order: 1;
+        margin-left: 0;
         padding: 30px 20px;
         border-radius: 0;
     }
