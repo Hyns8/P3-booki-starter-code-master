@@ -625,6 +625,7 @@ footer {
 
     .nav-links a:hover {
         border-bottom-color: #0065fc;
+        border-top: none;
     }
 
     /* INTRODUCTION */
