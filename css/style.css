@@ -526,8 +526,9 @@ footer {
     }
 
     .hebergements-and-populaires {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
         margin-top: 30px;
     }
 
@@ -539,6 +540,8 @@ footer {
     .populaires {
         order: 2;
         padding: 25px;
+        width: 100%;
+        box-sizing: border-box;
     }
 
     .hebergements-cards {
@@ -547,6 +550,8 @@ footer {
     }
 
     .populaires-cards {
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
         gap: 20px;
     }
 
