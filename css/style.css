@@ -521,6 +521,11 @@ footer {
         padding: 0 20px;
     }
 
+    .nav-links a:hover {
+        border-bottom-color: #0065fc;
+        border-top: none;
+    }
+
     .hebergements-and-populaires {
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -539,15 +544,6 @@ footer {
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
     }
-
-     .hebergements-cards .card-rating {
-        margin-bottom: 0;
-    }
-
-    .hebergements-cards .card-content {
-        height: 115px;
-        padding: 8px 12px 8px;
-    }   
 
     .populaires-cards {
         gap: 20px;
@@ -730,6 +726,7 @@ footer {
         margin-top: 20px;
         background-color: #ffffff;
     }
+
 
     .hebergements-cards .card {
         height: 200px;
