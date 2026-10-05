@@ -540,8 +540,7 @@ footer {
     .populaires {
         order: 2;
         padding: 25px;
-        width: 100%;
-        box-sizing: border-box;
+        margin-left: 0;
     }
 
     .hebergements-cards {
