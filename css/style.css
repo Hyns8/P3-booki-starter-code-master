@@ -522,8 +522,7 @@ footer {
     }
 
     .nav-links a:hover {
-        border-bottom-color: #0065fc;
-        border-top: none;
+        border-top-color: #0065fc;
     }
 
     .hebergements-and-populaires {
